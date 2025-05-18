@@ -1,0 +1,130 @@
+                @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+                *{
+                        box-sizing: border-box;
+                        margin: 0;
+                        padding: 0;
+                    }
+
+                    html{
+                        background-color:  hsl(275, 100%, 97%);
+                    }
+
+                    #f1-img{
+                        display: none;
+                    }
+
+                    .f-q img{
+                        display: block;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                    
+                    main{
+                        padding: 0 6%; 
+                        margin-top: -87px; 
+                        position: relative;
+                    }
+
+                    .container{
+                    padding: 6%;
+                    background-color: white;
+                    border-radius: 2% 2%;
+                    position: relative;
+                    }
+
+                    #first_q,
+                    #second_q,
+                    #third_q,
+                    #fourth_q{
+                        display: flex;
+                        flex-direction: column;
+                        margin-bottom: 40px;
+                        gap: 25px;
+                    }
+
+                    .question-row {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        gap: 30px;
+                    }
+
+                    #head-q{
+                        display: flex;
+                        flex-direction:row;
+                        margin-bottom: 25px;
+                    }
+
+                    #head-q h1{ 
+                        margin-left: 30px;
+                        font-family: "Work Sans", sans-serif;
+                        font-optical-sizing: auto;
+                        font-weight: 700;
+                        font-style: normal;
+                    }
+
+                    #first_q h4,
+                    #second_q h4,
+                    #third_q h4,
+                    #fourth_q h4{
+                        font-family: "Work Sans", sans-serif;
+                        font-optical-sizing: auto;
+                        font-weight: 600;
+                        font-style: normal;
+                        line-height: 1.3;           
+                    }
+                    
+                    .my-btn{
+                        border: 0;
+                        background-color: white;
+                        width: 30px;
+                        height: 30px;
+                    }
+
+                    p{
+                        font-size: 14.5px;
+                        font-family: "Work Sans", sans-serif;
+                        font-optical-sizing: auto;
+                        font-weight: 400;
+                        font-style: normal;
+                        opacity: 0.6;
+                        line-height: 1.4;
+                        padding-right: 10px;
+                    }
+
+                @media (min-width : 576px) {
+                    #f1-img{
+                        display: block;
+                        width: 100%;
+                        height: auto;
+                        object-fit: cover;
+                    }
+
+                    .f-q img{
+                        display: none;
+                    }
+
+                    main{
+                        padding: 0 15%; 
+                        margin-top: -97px; 
+                        position: relative;
+                    }
+                } 
+
+                @media (min-width : 768px){
+                     #f1-img{
+                        display: block;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+
+                    .f-q img{
+                        display: none;
+                    }
+
+                    main{
+                        padding: 0 20%; 
+                        margin-top: -104px; 
+                        position: relative;
+                    }
+                }
